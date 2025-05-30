@@ -1,10 +1,11 @@
-import tkinter as tk
+tk
 from tkinter import messagebox
 import mysql.connector
 from datetime import datetime
 
 # Database Connection
 def connect_db():
+    
     return mysql.connector.connect(
         host="localhost",
         user="root",
